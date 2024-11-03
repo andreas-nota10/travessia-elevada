@@ -1,0 +1,89 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #FFD700;
+    color: #000;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.device {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.device h2 {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.device-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #FFD700;
+}
+
+.device p {
+    margin-bottom: 10px;
+}
+
+.warning {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+.device h3 {
+    color: #FFD700;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #222;
+    color: #FFD700;
+    font-size: 0.9em;
+}
